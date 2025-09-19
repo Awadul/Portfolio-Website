@@ -6,25 +6,25 @@ export function Contact() {
     {
       icon: Github,
       label: 'GitHub',
-      href: '#',
+      href: 'https://github.com/Awadul',
       color: 'hover:text-gray-700'
     },
     {
       icon: Linkedin,
       label: 'LinkedIn',
-      href: '#',
+      href: 'https://www.linkedin.com/in/muhammad-awais-abdullah-0a588b330/',
       color: 'hover:text-blue-600'
     },
-    {
-      icon: Twitter,
-      label: 'Twitter',
-      href: '#',
-      color: 'hover:text-blue-400'
-    },
+    // {
+    //   icon: Twitter,
+    //   label: 'Twitter',
+    //   href: '#',
+    //   color: 'hover:text-blue-400'
+    // },
     {
       icon: Mail,
       label: 'Email',
-      href: 'mailto:hello@example.com',
+      href: 'mailto:awaisabdullahm79@gmail.com',
       color: 'hover:text-red-500'
     }
   ]

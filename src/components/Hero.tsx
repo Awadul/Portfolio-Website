@@ -144,23 +144,26 @@ export function Hero() {
               transition={{ duration: 0.8, delay: 1.4 }}
             >
               <motion.a
-                href="#"
-                className="p-3 rounded-full bg-card/50 backdrop-blur-sm border border-border/50 hover:bg-accent/50 transition-all duration-300 group"
-                whileHover={{ scale: 1.1, y: -2 }}
-                whileTap={{ scale: 0.95 }}
+              href="https://github.com/Awadul"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="p-3 rounded-full bg-card/50 backdrop-blur-sm border border-border/50 hover:bg-accent/50 transition-all duration-300 group"
+              whileHover={{ scale: 1.1, y: -2 }}
+              whileTap={{ scale: 0.95 }}
               >
-                <Github className="w-5 h-5 text-muted-foreground group-hover:text-foreground transition-colors" />
+              <Github className="w-5 h-5 text-muted-foreground group-hover:text-foreground transition-colors" />
               </motion.a>
               <motion.a
-                href="#"
+                href="https://www.linkedin.com/in/muhammad-awais-abdullah-0a588b330/"
                 className="p-3 rounded-full bg-card/50 backdrop-blur-sm border border-border/50 hover:bg-accent/50 transition-all duration-300 group"
+                target="_blank"
                 whileHover={{ scale: 1.1, y: -2 }}
                 whileTap={{ scale: 0.95 }}
               >
                 <Linkedin className="w-5 h-5 text-muted-foreground group-hover:text-foreground transition-colors" />
               </motion.a>
               <motion.a
-                href="mailto:hello@example.com"
+                href="mailto:awaisabdullahm79@gmail.com"
                 className="p-3 rounded-full bg-card/50 backdrop-blur-sm border border-border/50 hover:bg-accent/50 transition-all duration-300 group"
                 whileHover={{ scale: 1.1, y: -2 }}
                 whileTap={{ scale: 0.95 }}

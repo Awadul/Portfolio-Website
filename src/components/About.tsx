@@ -85,15 +85,15 @@ export function About() {
                 <div className="space-y-4">
                   <div className="flex items-center justify-between">
                     <span className="text-sm text-muted-foreground">Experience</span>
-                    <span className="text-2xl">5+ Years</span>
+                    <span className="text-2xl">1+ Years</span>
                   </div>
                   <div className="flex items-center justify-between">
                     <span className="text-sm text-muted-foreground">Projects</span>
-                    <span className="text-2xl">50+</span>
+                    <span className="text-2xl">4+</span>
                   </div>
                   <div className="flex items-center justify-between">
                     <span className="text-sm text-muted-foreground">Happy Clients</span>
-                    <span className="text-2xl">30+</span>
+                    <span className="text-2xl">3+</span>
                   </div>
                 </div>
               </motion.div>
